@@ -15,11 +15,11 @@ class Ingredient:
             raise ValueError("Количество должно быть положительным")
         self._quantity = value
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'{self.name}: {self.quantity} {self.unit}'
     
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f'Ingredient(\'{self.name}\', {self.quantity}, \'{self.unit}\')'
     
-    def __eq__(self, value):
+    def __eq__(self, value) -> bool:
         return self.name == value.name and self.unit == value.unit
