@@ -14,3 +14,10 @@
 # Добавление в список покупок
 shopping = ShoppingList()
 shopping.add_recipe(фри, 1)
+
+## Установка
+
+1. Склонируйте репозиторий:
+   ```bash
+   git clone <https://github.com/mo0isss/softwareEngineeringHW2>
+   cd <softwareEngineeringHW2>
