@@ -21,3 +21,8 @@ shopping.add_recipe(фри, 1)
    ```bash
    git clone <https://github.com/mo0isss/softwareEngineeringHW2>
    cd <softwareEngineeringHW2>
+   
+## Автор
+
+*   **ФИО:** [Михалев Александр Александрович]
+*   **Группа:** [ББИ2504]
