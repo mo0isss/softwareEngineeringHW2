@@ -1,4 +1,4 @@
-from Ingredient import Ingredient 
+from src.Ingredient import Ingredient 
 
 class Recipe:
     def __init__(self, title: str, ingredients: list) -> None:

@@ -1,5 +1,5 @@
-from Ingredient import Ingredient
-from Recipe import Recipe
+from src.Ingredient import Ingredient
+from src.Recipe import Recipe
 
 class ShoppingList:
     def __init__(self) -> None:

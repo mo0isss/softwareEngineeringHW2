@@ -1,4 +1,4 @@
-from Recipe import Recipe
+from src.Recipe import Recipe
 
 class DietaryRecipe(Recipe):
     def __init__(self, title: str, diet_type: str, ingredients = None):
